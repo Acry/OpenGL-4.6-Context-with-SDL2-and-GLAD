@@ -35,8 +35,8 @@ int main(int argc, char *argv[])
     #pragma region setup sdl
     init();
 
-    SDL_SetWindowPosition(Window, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
     SDL_SetWindowSize(Window, ww, wh);
+    SDL_SetWindowPosition(Window, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
     SDL_SetWindowTitle(Window, "Context 4.6 with GLAD");
     SDL_ShowWindow(Window);
 
